@@ -52,7 +52,7 @@ interface ProgramSearchCriteria {
 // Program DTO (Data Transfer Object)
 class CreateProgramDto {
   name: string;
-  level: string;
+  level: 'undergraduate' | 'masters' | 'phd';
   institute: string;
   country: string;
   description: string;
